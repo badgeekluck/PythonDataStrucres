@@ -1,4 +1,6 @@
-list = [10,25,32,29,1,76,53,69,70]
+import random
+
+list = [random.randint(0,100) for _ in range(25)]
 
 def insertion_sort(list):
     seq = list[:]
